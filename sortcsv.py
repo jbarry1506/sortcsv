@@ -16,8 +16,9 @@ else:
     extDataDir = os.getcwd()
     extDataDir = os.path.join(extDataDir, 'sample.csv')
 
+filetoopen = input("Please type the filename of the .csv file you would like to open: \n")
 
-file = open("sample.csv", "r")
+file = open("{}".format(filetoopen), "r")
 csvfile = csv.reader(file, delimiter=",")
 items = []
 
