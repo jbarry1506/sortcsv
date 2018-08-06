@@ -1,0 +1,47 @@
+# Repository #
+outfile*
+venv/*
+build/*
+dist/*
+__pycache__/*
+.idea/*
+
+# Compiled source #
+####################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+###################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+#######################
+*.log
+*.sql
+*.sqlite
+*.bson
+*.ns
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
