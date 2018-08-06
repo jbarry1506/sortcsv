@@ -16,7 +16,7 @@ else:
     extDataDir = os.getcwd()
     extDataDir = os.path.join(extDataDir, 'sample.csv')
 
-filetoopen = input("Please type the filename of the .csv file you would like to open: \n")
+filetoopen = input("Please type the full file, including path, of the .csv file you would like to open: \n")
 
 file = open("{}".format(filetoopen), "r")
 csvfile = csv.reader(file, delimiter=",")
@@ -97,7 +97,6 @@ def splitcsv():
 
     print("Parameter 1:  Number of lines in each file = {} \n"  # trailing parentheses is just a placeholder
           "Parameter 2:  Ascending / Descending = {}\n".format(lines, asc_desc))
-    # "Parameter 3:  Column to be sorted by = {}".format(lines, asc_desc, sortcolumn))
 
 
 # These functions seem unnecessary if I am not going to be error checking.
